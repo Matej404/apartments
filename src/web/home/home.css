@@ -1,0 +1,26 @@
+.home {
+  background: url(homepic.JPG) center center/cover;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home h1 {
+  color: rgba(255, 255, 255, 0.723);
+  font-size: 7rem;
+  font-family: cursive;
+}
+/*# sourceMappingURL=home.css.map */
