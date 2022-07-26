@@ -25,6 +25,8 @@
   color: white;
   font-size: 2rem;
   margin: 0 30px;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .header-list li:hover {

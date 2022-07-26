@@ -1,4 +1,4 @@
-.about {
+.location {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,12 +14,12 @@
           flex-direction: column;
 }
 
-.about h1 {
+.location h1 {
   color: white;
-  margin-top: 80px;
+  margin: 80px 0;
 }
 
-.about-container {
+.location-container {
   width: 100%;
   height: 100vh;
   background-color: #a4a453;
@@ -28,26 +28,25 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.about-img {
-  width: 400px;
+.location-img {
+  width: 530px;
+  margin: 15px;
 }
 
-.about-img img {
+.location-img img {
   width: 100%;
   border-radius: 5px;
 }
 
-.about-text {
+.location-text {
   width: 600px;
+  margin: 15px;
 }
 
-.about-text p {
+.location-text p {
   color: white;
   font-size: 1.5rem;
 }
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=location.css.map */

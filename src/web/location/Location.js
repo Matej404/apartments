@@ -1,16 +1,16 @@
-import "./about.css";
-import Aboutpic from "./aboutpic.JPG"
+import "./location.css";
+import Aboutpic from "./aboutpic.jpg"
 
-export default function About() {
+export default function Location() {
 
     return (
-        <div className="about">
-            <h1>ABOUT US</h1>
-            <div className="about-container">
-                <div className="about-img">
+        <div className="location">
+            <h1>Location</h1>
+            <div className="location-container">
+                <div className="location-img">
                     <img src={Aboutpic} alt="house" />
                 </div>
-                <div className="about-text">
+                <div className="location-text">
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 

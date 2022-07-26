@@ -1,15 +1,18 @@
 import "./style.css";
 import Home from "./home/Home";
-import About from "./about/About";
+import Location from "./location/Location";
 import Offers from "./offers/Offers";
 
 export default function Main() {
 
     return(
         <div>
+            <div id="home" />
             <Home />
-            <About />
+            <div id="offers" />
             <Offers />
+            <div id="location" />
+            <Location />
         </div>
     )
 }
