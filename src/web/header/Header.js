@@ -1,5 +1,5 @@
 import "./header.css";
-import { Link } from "react-scroll"
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
 
@@ -7,24 +7,24 @@ export default function Header() {
         <div className="header">
             <ol className="header-list">
                 <li className="nav-link">
-                    <Link className="list-item" smooth={true} duration={800} to="home">
+                    <NavLink className="list-item" to="/">
                         HOME
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link className="list-item" smooth={true} duration={800} to="offers">
+                    <NavLink className="list-item" to="offers">
                         OFFERS
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link className="list-item" smooth={true} duration={800} to="location">
+                    <NavLink className="list-item" to="location">
                         LOCATION
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link className="list-item" to="contact">
+                    <NavLink className="list-item" to="contact">
                         CONTACT
-                    </Link>
+                    </NavLink>
                 </li>
             </ol>
         </div>
